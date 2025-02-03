@@ -26,6 +26,7 @@ export default function RootLayout({
       <body
         className={`${neuemontreal.variable}  ${iowan.variable} overflow-x-hidden bg-beige text-blue antialiased`}
       >
+        <Header />
         <main id="content" tabIndex={-1}>
           {children}
         </main>
@@ -35,4 +36,4 @@ export default function RootLayout({
       </body>
     </html>
   );
-}
+	}
