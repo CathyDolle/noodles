@@ -12,8 +12,8 @@ import {
 import { Suspense } from "react";
 
 export const metadata: Metadata = {
-  title: "Starter 2025",
-  description: "Starter 2025",
+  title: "La maison des nouilles",
+  description: "Restaurant de nouilles faites maison.",
 };
 
 export default function RootLayout({
