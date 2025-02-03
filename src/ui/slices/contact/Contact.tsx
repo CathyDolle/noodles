@@ -1,17 +1,19 @@
 import React from "react";
 import { ParallaxMedia } from "@/ui/components";
 import Image from "next/image";
-import i1 from "@/assets/images/heroImg.jpg";
+import i1 from "@/assets/images/contact.jpg";
 
 export const Contact = () => {
   return (
-    <section className="w-screen margin-p-1 h-screen flex">
-      <ParallaxMedia scrollProps={{ className: "h-full span-w-7" }}>
+    <section className="w-screen margin-p-1 lg-max:flex-col-reverse lg:h-screen flex">
+      <ParallaxMedia
+        scrollProps={{ className: "aspect-square lg:h-full lg:span-w-7" }}
+      >
         <Image src={i1} className="h-full w-full object-cover" alt="Contact" />
       </ParallaxMedia>
-      <div className="span-w-5 flex flex-col justify-center span-ml-1-wider">
-        <h5 className="font-serif text-80">Contact</h5>
-        <form className="span-w-3">
+      <div className="lg:span-w-5 flex flex-col justify-center lg:span-ml-1-wider">
+        <h5 className="font-serif lg-max:mt-64 text-80">Contact</h5>
+        <form className="lg:span-w-3">
           <div className="flex flex-col gap-40">
             <input
               type="text"
@@ -49,7 +51,7 @@ export const Contact = () => {
           </div>
           <button
             type="submit"
-            className="uppercase  bg-blue mt-32 text-10 w-full text-beige  py-12"
+            className="uppercase lg-max:margin-mb-1  bg-blue mt-32 text-10 w-full text-beige  py-12"
           >
             Envoyer
           </button>

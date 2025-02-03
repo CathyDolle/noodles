@@ -6,22 +6,22 @@ import i1 from "@/assets/images/heroImg.jpg";
 
 export const Hero = () => {
   return (
-    <section className="h-screen w-screen flex flex-col justify-between margin-p-1">
+    <section className="h-screen w-screen overflow-hidden flex flex-col justify-between margin-p-1">
       {/* Title span */}
       <div className="flex flex-col items-center w-full gap-4">
-        <h1 className="uppercase leading-[75%] font-serif text-[360px]">
+        <h1 className="uppercase leading-[75%] font-serif text-90 lg:text-[360px]">
           nouilles
         </h1>
-        <div className="flex uppercase w-full text-12 justify-between">
+        <div className="flex uppercase w-full text-10 lg:text-12 justify-between">
           <span>since 1920</span>
           <span>32 nom de la rue - 75016 PARIS</span>
         </div>
       </div>
       {/* content */}
-      <div className="flex justify-between items-end">
-        <div className="flex flex-col span-w-3 gap-48">
-          <h2 className="font-serif leading-[90%] text-32 uppercase">
-            La maison des nouilles
+      <div className="flex lg-max:flex-col lg-max:margin-gap-1 justify-between items-end">
+        <div className="flex flex-col lg:span-w-3 gap-32 lg:gap-48">
+          <h2 className="font-serif leading-[90%] text-24 lg:text-32 uppercase">
+            La maison<br/>des nouilles
           </h2>
           <p className="text-12 text-blue/60 uppercase leading-[100%]">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -39,7 +39,7 @@ export const Hero = () => {
         </div>
         <ParallaxMedia
           scrollProps={{ className: "h-full" }}
-          className="h-[62vh] lg-max:hidden span-w-5"
+          className="lg:h-[62vh] lg-max:aspect-[square] lg:span-w-5"
         >
           <Image
             priority

@@ -6,10 +6,10 @@ import { ParallaxMedia } from "@/ui/components";
 
 export const Storytelling = () => {
   return (
-    <section className="w-screen flex flex-wrap gutter-gap-1 items-end">
+    <section className="w-screen lg-max:margin-p-1 lg-max:mt-64 flex lg-max:flex-col-reverse flex-wrap gutter-gap-1 lg:items-end">
       <ParallaxMedia scrollProps={{ className: "h-full" }}>
         <Image
-          className="span-w-7-wide aspect-[3/2] object-cover object-top"
+          className="lg:span-w-7-wide aspect-square lg:aspect-[3/2] object-cover object-top"
           src={i2}
           alt="Storytelling"
           width={1000}
@@ -17,7 +17,7 @@ export const Storytelling = () => {
         />
       </ParallaxMedia>
 
-      <div className="flex flex-col span-w-3 gap-40">
+      <div className="flex flex-col span-w-5 lg:span-w-3 gap-40">
         <h3 className="font-serif leading-[90%] text-32 uppercase">
           Notre histoire
         </h3>
