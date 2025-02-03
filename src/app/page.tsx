@@ -1,11 +1,13 @@
-
-import { Hero, SimpleText } from '@/ui/slices'
-
+import { Hero, Storytelling, Carte, Contact } from "@/ui/slices";
+import { Footer } from "@/ui/components";
 export default function Home() {
-	return (
-		<>
-			<Hero />
-			<SimpleText />
-		</>
-	);
+  return (
+    <>
+      <Hero />
+      <Storytelling />
+      <Carte />
+      <Contact />
+      <Footer />
+    </>
+  );
 }
