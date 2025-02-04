@@ -13,14 +13,15 @@ export const Carte = () => {
         </span>
         <div className="flex flex-col lg:absolute bottom-0 lg-max:py-64 margin-left-1 span-w-5 lg:span-w-3 gap-32">
           <h4 className="font-serif leading-[90%] text-20 uppercase">
-            Nouilles froides
-            <br />
-            sans soupes
+          Une Carte Authentique<br/>et Gourmande
           </h4>
-          <p className="text-12 uppercase leading-[100%]">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          <p className="text-12 font-serif leading-[100%]">
+            Découvrez notre carte où les Lanzhou Mian, tirées à la main, sont
+            les véritables stars. Entre nouilles en soupe, aux bouillons riches
+            et savoureux, et nouilles sautées aux parfums authentiques, chaque
+            plat est préparé avec soin. Complétez votre repas avec nos
+            accompagnements chinois et savourez le meilleur de la cuisine
+            traditionnelle asiatique.
           </p>
           <Link
             href="/"

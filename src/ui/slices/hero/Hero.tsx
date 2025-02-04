@@ -21,14 +21,18 @@ export const Hero = () => {
       <div className="flex lg-max:flex-col lg-max:margin-gap-1 justify-between items-end">
         <div className="flex flex-col lg:span-w-3 gap-32 lg:gap-48">
           <h2 className="font-serif leading-[90%] text-24 lg:text-32 uppercase">
-            La maison<br/>des nouilles
+            La maison
+            <br />
+            des nouilles
           </h2>
-          <p className="text-12 text-blue/60 uppercase leading-[100%]">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum 
+          <p className="text-12 text-blue/80 font-serif  leading-[100%]">
+            Envie de déguster de véritables nouilles chinoises faites maison à
+            Paris ? Bienvenue à La Maison de Nouilles, le restaurant spécialisé
+            dans les Lanzhou Mian, ces célèbres nouilles tirées à la main sous
+            vos yeux. Plongez dans l'authenticité d'une cuisine chinoise
+            artisanale, entre bouillons parfumés et nouilles sautées
+            savoureuses. Réservez dès maintenant et laissez-vous tenter par une
+            expérience culinaire unique au cœur de Paris !
           </p>
           <Link
             href="/"

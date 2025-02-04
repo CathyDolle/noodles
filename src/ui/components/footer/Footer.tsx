@@ -9,10 +9,13 @@ export const Footer = () => {
           <h6 className="text-20 lg:text-32 uppercase leading-[100%] font-serif">
             La maison des nouilles
           </h6>
-          <p className="text-12 lg-max:mb-40 text-beige/60 leading-[100%] uppercase">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati
-            molestias accusantium repellat aliquid facere officiis quo neque
-            consequatur illum doloribus.
+          <p className="text-12 lg-max:mb-40 text-beige/80 leading-[100%] font-serif">
+            Envie d’une expérience culinaire authentique ? La Maison de
+            Nouilles, votre restaurant de nouilles chinoises à Paris, vous
+            invite à découvrir le vrai goût des nouilles maison, tirées à la
+            main et servies dans un cadre chaleureux. Que vous soyez amateur de
+            cuisine chinoise traditionnelle ou curieux de nouvelles saveurs, on
+            vous attend pour un voyage gustatif unique !
           </p>
         </div>
         <div className="flex lg-max:mb-120 lg-max:flex-col lg:span-ml-4-wider gap-32 lg:gap-64">

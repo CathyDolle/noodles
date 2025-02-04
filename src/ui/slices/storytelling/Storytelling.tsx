@@ -21,11 +21,15 @@ export const Storytelling = () => {
         <h3 className="font-serif leading-[90%] text-32 uppercase">
           Notre histoire
         </h3>
-        <p className="text-12 text-blue/60 uppercase leading-[100%]">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
+        <p className="text-12 text-blue/70 font-serif leading-[100%]">
+          Chez La Maison de Nouilles, tout commence par une passion : celle des
+          nouilles chinoises traditionnelles, préparées selon un savoir-faire
+          ancestral. Inspiré des échoppes authentiques de Lanzhou, notre
+          restaurant recrée l’expérience d’une cuisine artisanale, où chaque bol
+          de nouilles en soupe ou de nouilles sautées est un hommage à la street
+          food chinoise. Avec des ingrédients frais et des techniques
+          maîtrisées, nous vous offrons un voyage culinaire unique, au cœur de
+          Paris.
         </p>
         <div className="flex gutter-mb-1">
           <Link
