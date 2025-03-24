@@ -35,7 +35,8 @@ export const Hero = () => {
             expérience culinaire unique au cœur de Paris !
           </p>
           <Link
-            href="/"
+            target="_blank"
+            href="https://widget.thefork.com/565c5ed9-b18d-4cc3-a4bd-b6a2c87af51b"
             className="text-10 w-fit py-20 px-40 bg-blue text-beige uppercase leading-[100%]"
           >
             Réserver
