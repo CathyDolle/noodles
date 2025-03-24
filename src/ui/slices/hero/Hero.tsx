@@ -14,7 +14,7 @@ export const Hero = () => {
         </h1>
         <div className="flex uppercase w-full text-10 lg:text-12 justify-between">
           <span>since 1920</span>
-          <span>32 nom de la rue - 75016 PARIS</span>
+          <span>8 rue de Castellane Paris 75008</span>
         </div>
       </div>
       {/* content */}
