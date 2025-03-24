@@ -11,7 +11,7 @@ export const Header = () => {
         <p>Contact</p>
       </div>
       <div className="flex">
-        <Link href="/" target="_blank">
+        <Link href="https://widget.thefork.com/565c5ed9-b18d-4cc3-a4bd-b6a2c87af51b" target="_blank">
           <div className="w-160 flex items-end border-blue border p-6 h-80 bg-beige">
             <p>Réserver<br/>en ligne</p>
           </div>
