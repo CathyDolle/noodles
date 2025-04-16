@@ -14,6 +14,9 @@ import { Suspense } from "react";
 export const metadata: Metadata = {
   title: "La maison des nouilles",
   description: "Restaurant de nouilles faites maison.",
+  icons: {
+    icon: "/logo.svg",
+  },
 };
 
 export default function RootLayout({
@@ -23,6 +26,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="/logo.svg" />
+      </head>
       <body
         className={`${neuemontreal.variable}  ${iowan.variable} overflow-x-hidden bg-beige text-blue antialiased`}
       >
@@ -36,4 +42,4 @@ export default function RootLayout({
       </body>
     </html>
   );
-	}
+}
