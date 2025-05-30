@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import i3 from "@/assets/images/menu.jpg";
+import i3 from "@/assets/images/p3.jpg";
 import { ParallaxMedia } from "@/ui/components";
 import Link from "next/link";
 

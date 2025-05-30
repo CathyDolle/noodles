@@ -34,9 +34,10 @@ export const Storytelling = () => {
         <div className="flex gutter-mb-1">
           <Link
             className="flex items-center text-blue uppercase span-w-1 text-10 gap-8"
-            href="/"
+            href="https://www.tiktok.com/@maisondesnouilles"
+            target="_blank"
           >
-            Twitter{" "}
+            Tiktok{" "}
             <svg
               width="15"
               height="15"
@@ -54,7 +55,8 @@ export const Storytelling = () => {
           </Link>
           <Link
             className="flex items-center text-blue uppercase span-w-1 text-10 gap-8"
-            href="/"
+            href="https://www.instagram.com/maisondesnouilles/"
+            target="_blank"
           >
             Instagram{" "}
             <svg

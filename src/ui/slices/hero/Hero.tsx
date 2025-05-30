@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 import { ParallaxMedia } from "@/ui/components";
 import Image from "next/image";
-import i1 from "@/assets/images/heroImg.jpg";
+import i1 from "@/assets/images/p1.jpg";
 
 export const Hero = () => {
   return (
@@ -13,7 +13,7 @@ export const Hero = () => {
           nouilles
         </h1>
         <div className="flex uppercase w-full text-10 lg:text-12 justify-between">
-          <span>since 1920</span>
+          <span>since 2018</span>
           <span>8 rue de Castellane Paris 75008</span>
         </div>
       </div>
