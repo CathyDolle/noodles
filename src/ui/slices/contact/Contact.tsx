@@ -5,7 +5,10 @@ import i1 from "@/assets/images/contact.jpg";
 
 export const Contact = () => {
   return (
-    <section className="w-screen margin-p-1 lg-max:flex-col-reverse lg:h-screen flex">
+    <section
+      id="contact"
+      className="w-screen margin-p-1 lg-max:flex-col-reverse lg:h-screen flex"
+    >
       <ParallaxMedia
         scrollProps={{ className: "aspect-square lg:h-full lg:span-w-7" }}
       >

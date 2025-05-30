@@ -11,9 +11,13 @@ export const Header = () => {
       >
         Carte
       </Link>
-      <div className="w-80 flex items-end border-blue border p-6 h-80 bg-beige">
+      {/* CONTACT PART */}
+      <Link
+        href="#contact"
+        className="w-80 flex items-end border-blue border p-6 h-80 bg-beige"
+      >
         <p>Contact</p>
-      </div>
+      </Link>
       <div className="flex">
         <Link
           href="https://widget.thefork.com/565c5ed9-b18d-4cc3-a4bd-b6a2c87af51b"
